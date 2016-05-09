@@ -567,6 +567,13 @@ if (!require('choroplethr')){
   install.packages("choroplethr")
   library(choroplethr)
 }
+if(!require('choroplethrMaps')){
+  
+  install.packages("choroplethrMaps")##上次沒有安裝到這個package
+  
+  library(choroplethrMaps)##forstate_choropleth()
+  
+}
 ```
 
 ## 美國各州人口分布
